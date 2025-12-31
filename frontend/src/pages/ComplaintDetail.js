@@ -53,6 +53,9 @@ export default function ComplaintDetail() {
 
       <Typography><b>Location:</b> {complaint.location}</Typography>
       <Typography><b>Materials Required:</b> No</Typography>
+      <Typography><b>Name:</b> {complaint.name}</Typography>
+      <Typography><b>Room No:</b> {complaint.roomNo}</Typography>
+      <Typography><b>Date:</b> {complaint.date}</Typography>
 
       {/* ✅ Buttons to update status */}
       <Button

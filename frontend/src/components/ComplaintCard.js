@@ -26,6 +26,10 @@ export default function ComplaintCard({ complaint, onClick }) {
           <StatusChip label={complaint.status} type="status" />
         </Box>
 
+        <Typography variant="subtitle2" color="text.secondary">
+          Name: {complaint.name} | Room: {complaint.roomNo} | Date: {complaint.date}
+        </Typography>
+
         <Typography variant="h6" mt={1}>
           {complaint.category}
         </Typography>
