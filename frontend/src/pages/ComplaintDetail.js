@@ -23,7 +23,7 @@ export default function ComplaintDetail() {
   // ✅ Place it here, inside the component but above return
   const updateStatus = async (newStatus) => {
     try {
-      const res = await API.patch(`/complaints/${id}/`, { status: newStatus });
+      const res = await API.put(`/complaints/${id}/`, { status: newStatus });
       setComplaint(res.data); // update UI
       alert(`Status updated to ${newStatus}`);
     } catch (err) {
