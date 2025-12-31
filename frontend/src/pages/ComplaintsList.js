@@ -64,17 +64,7 @@ export default function ComplaintsList() {
             complaint={c}
             onClick={() => navigate(`/complaints/${c.id}`)}
           />
-          <Button
-            size="small"
-            sx={{ mt: 1 }}
-            disabled={updatingId} // disable button while updating
-            onClick={(e) => {
-              e.stopPropagation(); // prevent card click
-              toggleStatus(c.id);
-            }}
-          >
-            {c.status.toLowerCase() === "done" ? "Mark as Pending" : "Mark as Done"}
-          </Button>
+          
         </Box>
       ))}
     </Box>
