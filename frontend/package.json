@@ -2,33 +2,30 @@
   "name": "complaint-box-frontend",
   "version": "1.0.0",
   "private": true,
-
-  "engines": {
-    "node": "24.x",
-    "npm": "9.x"
-  },
-
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1",
+    "@mui/material": "^7.3.6",
+    "@mui/icons-material": "^7.3.6",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@mui/icons-material": "^7.3.6",
-    "@mui/material": "^7.3.6",
-    "axios": "^1.13.2",
-    "chart.js": "^4.5.1",
-    "react": "^18.3.1",
-    "react-chartjs-2": "^5.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.11.0",
-    "react-scripts": "^5.0.1"
+    "axios": "^1.13.2"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
