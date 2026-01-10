@@ -170,7 +170,7 @@ Complaint_Box/
 
 
 ---
-
+```
 ## 🌱 Future Scope
 
 This project is designed to scale. Planned enhancements include:
