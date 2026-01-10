@@ -106,6 +106,7 @@ This mirrors how **real-world backend systems** are designed and maintained in p
 | PUT  | `/api/complaints/done/<id>/`     | Update complaint status       |
 
 ---
+<img src="/assets/analytics.png" alt="Dashboard" />
 
 ## 🧪 Error Handling & Reliability
 
