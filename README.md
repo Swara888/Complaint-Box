@@ -142,29 +142,31 @@ This mirrors how **real-world backend systems** are designed and maintained in p
 
 ---
 
-## 📂 Project Architecture
+## 📂 Project Structure
 
+```text
 Complaint_Box/
-│
 ├── backend/
-│ ├── backend/
-│ │ ├── settings.py
-│ │ ├── urls.py
-│ │ └── wsgi.py
-│ ├── complaints/
-│ │ ├── models.py
-│ │ ├── serializers.py
-│ │ ├── views.py
-│ │ └── urls.py
-│ └── requirements.txt
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── complaints/
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+│
+├── requirements.txt
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── api/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── api/
 │
 └── README.md
+
 
 
 ---
