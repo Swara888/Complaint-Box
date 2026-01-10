@@ -28,7 +28,7 @@ class Complaint(models.Model):
     
     # Complaint details
     category = models.CharField(max_length=100, help_text="Category of the complaint")
-    description = models.TextField(help_text="Detailed description of the complaint")
+    description = models.TextField()
    
     # Complaint priority and status
     priority = models.CharField(max_length=20, choices=PRIORITY_CHOICES, help_text="Priority of the complaint")
