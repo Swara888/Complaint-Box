@@ -106,6 +106,31 @@ This mirrors how **real-world backend systems** are designed and maintained in p
 | PUT  | `/api/complaints/done/<id>/`     | Update complaint status       |
 
 ---
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/70597928-e141-4142-be8f-16dc37b7d0fe" 
+    width="900" 
+    style="margin-bottom:40px;" 
+    alt="Analytics Dashboard"
+  />
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/eef35194-2688-4081-a3d7-d2b9965ddefe" 
+    width="900" 
+    style="margin-bottom:40px;" 
+    alt="Complaint List"
+  />
+</div>
+
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/be2484e7-ebb1-4646-bcfe-9448881a0576" 
+    width="900" 
+    alt="Submit Complaint Form"
+  />
+</div>
 
 
 ## 🧪 Error Handling & Reliability
