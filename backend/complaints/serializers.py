@@ -12,4 +12,4 @@ class ComplaintSerializer(serializers.ModelSerializer):
         model = Complaint
         fields = "__all__"  # Include all fields from the model
         # Optional: extra kwargs to make certain fields read-only if needed
-        read_only_fields = ('created_at')  # Status auto-default, created_at auto-added
+        read_only_fields = ('status', 'created_at')  # Status auto-default, created_at auto-added
