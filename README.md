@@ -117,17 +117,6 @@ This mirrors how **real-world backend systems** are designed and maintained in p
 
 ---
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/70597928-e141-4142-be8f-16dc37b7d0fe" width="420" style="margin-right:20px;" />
-  <img src="https://github.com/user-attachments/assets/eef35194-2688-4081-a3d7-d2b9965ddefe" width="420" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/be2484e7-ebb1-4646-bcfe-9448881a0576" width="720" />
-</div>
-
 ## 📂 Project Architecture
 
 Complaint_Box/
